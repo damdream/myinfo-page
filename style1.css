@@ -1,0 +1,222 @@
+
+ body {
+    background-color: rgb(248, 227, 239);
+  }
+  
+  .frame {
+    margin: 30px 150px ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+  }
+  
+  ul{
+    margin: 0;
+  }
+  
+  
+  .site-name {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(224, 91, 50);
+  }
+  
+  /*navigator*/
+  
+  .nav-menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  a {
+    color : grey;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    transition: 0.3s;
+  }
+
+  /*profile-section*/
+ /* profile-menu*/
+
+
+ .profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px ;
+  }
+
+ .profile-menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: grey;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+  
+  #profile-picture {
+    width: 500px;
+    margin-right: 40px;
+  }
+  
+  .introduction>h3{
+    margin: 10px;
+    margin-bottom: 10px;
+    font-family: "Noto Sans KR",sans-serif;
+    font-size: 30px;
+    color:rgb(224, 91, 50) ;
+    letter-spacing: -2px;
+    
+  }
+  
+  .introduction>h4{
+    margin: 10px;
+    font-family: "Noto Sans KR",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+  .introduction>p{
+    font-family: "'Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    line-height: 30px;
+  }
+
+  p > {
+      text-indent: 30px;
+  }
+
+
+
+  /*프 contact me 밑줄 구현이 안된다 ㅠ */
+  .contact-me {
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration-line: underline 1px grey;
+    color: rgb(223, 170, 165);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-links {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: grey;
+    text-align: center;
+    
+  }
+  
+  .contact-links>a {
+    margin-left: 15px;
+  }
+  
+  /*hobby*/
+
+  .hobby {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: grey;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+
+ .value-section{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-content: center;
+     margin: 100px 150px;
+     margin-top: 20px;
+ }
+
+ .value {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 40px;
+     align-items: center;
+ }
+
+ .value-icon{
+     width: 200px;
+     height: 200px;
+     padding: 10px;
+     border: 2px solid rgb(241, 210, 210);
+     border-radius: 10px;
+ }
+
+ .value-intro{
+     margin-left: 30px;
+ }
+
+ .value-name{
+     font-family: "Noto Sans KR", sans-serif;
+     font-weight: 700px;
+     font-size: 20px;
+     color: rosybrown;
+     margin-top: 0px;
+     margin-bottom: 5px;
+     letter-spacing: -2px;
+ }
+
+ .value-exp{
+     font-family: "Noto Sans KR", sans-serif;
+     font-weight: 300px;
+     font-size: 16px;
+     margin: 0px;
+     letter-spacing: -2px;
+    
+ }
+ 
+  /* footer */
+  .profile-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* contact */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: grey;
+    border-top: 1px solid #C2B4AB;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
